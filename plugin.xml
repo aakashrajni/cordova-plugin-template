@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="" version="1.0.0">
+    <name></name>
+    <description></description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,</keywords>
+    <js-module src="www/js/.js" name="">
+        <clobbers target="" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="">
+                <param name="android-package" value=""/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/.java" target-dir="src/"/>
+    </platform>
+</plugin>
